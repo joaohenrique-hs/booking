@@ -23,6 +23,7 @@ defmodule Flightex.MixProject do
   defp deps do
     [
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
+      {:uuid, "~> 1.1"},
       {:decimal, "~> 2.0"},
       {:ex_machina, "~> 2.5.0"},
       {:elixir_uuid, "~> 1.2"},
